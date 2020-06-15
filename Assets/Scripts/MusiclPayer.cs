@@ -18,6 +18,6 @@ public class MusiclPayer : MonoBehaviour
 
     private void LoadFirstLevel() 
     {
-        SceneManager.LoadScene(1);
+      SceneManager.LoadScene(1);
     }
 }
