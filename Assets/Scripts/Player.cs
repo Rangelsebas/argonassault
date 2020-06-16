@@ -16,12 +16,7 @@ public class Player : MonoBehaviour
     [SerializeField] float positionYawFactor = 1f;
 
 
-    [SerializeField] float controlRollFactor = -20f;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] float controlRollFactor = -30f;
 
     // Update is called once per frame
     void Update()
@@ -29,7 +24,7 @@ public class Player : MonoBehaviour
         ProcessTranslation();
         ProcessRotation();
     }
-
+    
     private void ProcessRotation() 
     {
         float pitchDueToControlThrow = yThrow * controlPitchFactor;
