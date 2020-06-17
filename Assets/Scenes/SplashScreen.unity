@@ -312,7 +312,26 @@ PrefabInstance:
     - target: {fileID: 6161847342370859023, guid: 8093f481e4ebc2c2691a67da8031ce66,
         type: 3}
       propertyPath: m_Name
-      value: PlayerMusic
+      value: MusicPlayer
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6161847342370859020, guid: 8093f481e4ebc2c2691a67da8031ce66, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8093f481e4ebc2c2691a67da8031ce66, type: 3}
+--- !u!1 &6161847342867106412 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6161847342370859023, guid: 8093f481e4ebc2c2691a67da8031ce66,
+    type: 3}
+  m_PrefabInstance: {fileID: 6161847342867106411}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6161847342867106413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6161847342867106412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70f7a637c60defcf9a89aabae97893f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

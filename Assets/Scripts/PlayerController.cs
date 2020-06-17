@@ -7,6 +7,8 @@ public class PlayerController : MonoBehaviour
 
     float xThrow, yThrow;
 
+    bool isControlEnable = true;
+
     [Header("General")]
     [Tooltip("In ms^-1")] [SerializeField] float speed = 20f;
     [Tooltip("In m")] [SerializeField] float xRange = 10f;
@@ -23,8 +25,16 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ProcessTranslation();
-        ProcessRotation();
+        if(isControlEnable) 
+        {        
+            ProcessTranslation();
+            ProcessRotation();
+        }
+    }
+
+    void OnPlayerDeath() 
+    {
+        isControlEnable = false;
     }
     
     private void ProcessRotation() 
