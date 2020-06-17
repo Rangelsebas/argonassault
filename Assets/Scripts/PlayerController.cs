@@ -7,16 +7,17 @@ public class PlayerController : MonoBehaviour
 
     float xThrow, yThrow;
 
+    [Header("General")]
     [Tooltip("In ms^-1")] [SerializeField] float speed = 20f;
     [Tooltip("In m")] [SerializeField] float xRange = 10f;
     [Tooltip("In m")] [SerializeField] float yRange = 8f;
 
+    [Header("Screen-position Based")]
     [SerializeField] float positionPitchFactor = -3.5f;
-    [SerializeField] float controlPitchFactor = -3f;
-
     [SerializeField] float positionYawFactor = 1f;
 
-
+    [Header("Control-throw Based")]
+    [SerializeField] float controlPitchFactor = -3f;
     [SerializeField] float controlRollFactor = -30f;
 
     // Update is called once per frame
