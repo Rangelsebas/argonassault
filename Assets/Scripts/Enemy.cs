@@ -4,20 +4,23 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    [SerializeField] GameObject deathFX;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        AddNonTriggerBoxCollider();
     }
 
-    // Update is called once per frame
-    void Update()
+    void AddNonTriggerBoxCollider() 
     {
-        
+        Collider boxCollider = gameObject.AddComponent<BoxCollider>();
+        boxCollider.isTrigger = false;
     }
 
     void OnParticleCollision(GameObject other) 
     {
+        Instantiate(deathFX, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
 }
