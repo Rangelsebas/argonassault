@@ -350,6 +350,7 @@ GameObject:
   - component: {fileID: 998435298}
   - component: {fileID: 998435300}
   - component: {fileID: 998435299}
+  - component: {fileID: 998435301}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -417,6 +418,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 998435297}
   m_CullTransparentMesh: 0
+--- !u!114 &998435301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 998435297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65cd4ce42341b486d9dfb94265186e63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scorePerHint: 12
 --- !u!1 &1028484405
 GameObject:
   m_ObjectHideFlags: 0
