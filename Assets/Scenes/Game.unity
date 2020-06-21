@@ -153,6 +153,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 1290556621913150682, guid: f4179767953b946be838857bee5c0fb6, type: 3}
   parent: {fileID: 1246990773}
+  scorePerHint: 50
 --- !u!1001 &261113203
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -253,6 +254,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 1290556621913150682, guid: f4179767953b946be838857bee5c0fb6, type: 3}
   parent: {fileID: 1246990773}
+  scorePerHint: 12
 --- !u!1 &444869923 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2555367137861937035, guid: 8280360987fa1f1feb90b5aadacb6d39,
@@ -273,6 +275,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 1290556621913150682, guid: f4179767953b946be838857bee5c0fb6, type: 3}
   parent: {fileID: 1246990773}
+  scorePerHint: 100
 --- !u!1 &612709976 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2555549260753501863, guid: 8280360987fa1f1feb90b5aadacb6d39,
@@ -293,6 +296,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 1290556621913150682, guid: f4179767953b946be838857bee5c0fb6, type: 3}
   parent: {fileID: 1246990773}
+  scorePerHint: 50
 --- !u!1 &666271270 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2554039481348131691, guid: 8280360987fa1f1feb90b5aadacb6d39,
@@ -313,6 +317,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 1290556621913150682, guid: f4179767953b946be838857bee5c0fb6, type: 3}
   parent: {fileID: 1246990773}
+  scorePerHint: 100
 --- !u!108 &705507994 stripped
 Light:
   m_CorrespondingSourceObject: {fileID: 2381023654601009803, guid: 5501f97f6b19d3a75b885d51a68ad9bd,
@@ -339,6 +344,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 1290556621913150682, guid: f4179767953b946be838857bee5c0fb6, type: 3}
   parent: {fileID: 1246990773}
+  scorePerHint: 12
 --- !u!1 &998435297
 GameObject:
   m_ObjectHideFlags: 0
@@ -352,7 +358,7 @@ GameObject:
   - component: {fileID: 998435299}
   - component: {fileID: 998435301}
   m_Layer: 5
-  m_Name: Text
+  m_Name: ScoreBoard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -430,7 +436,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65cd4ce42341b486d9dfb94265186e63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scorePerHint: 12
 --- !u!1 &1028484405
 GameObject:
   m_ObjectHideFlags: 0
@@ -517,6 +522,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 1290556621913150682, guid: f4179767953b946be838857bee5c0fb6, type: 3}
   parent: {fileID: 1246990773}
+  scorePerHint: 12
 --- !u!1 &1157649599 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2555549260762948524, guid: 8280360987fa1f1feb90b5aadacb6d39,
@@ -537,6 +543,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 1290556621913150682, guid: f4179767953b946be838857bee5c0fb6, type: 3}
   parent: {fileID: 1246990773}
+  scorePerHint: 100
 --- !u!1001 &1226310397
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -656,6 +663,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 1290556621913150682, guid: f4179767953b946be838857bee5c0fb6, type: 3}
   parent: {fileID: 1246990773}
+  scorePerHint: 12
 --- !u!1 &1506369621 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2555409525398102024, guid: 8280360987fa1f1feb90b5aadacb6d39,
@@ -676,6 +684,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 1290556621913150682, guid: f4179767953b946be838857bee5c0fb6, type: 3}
   parent: {fileID: 1246990773}
+  scorePerHint: 100
 --- !u!1 &1792455418 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1875551938172112, guid: bb7599871142bcd41bace4e2b151829a,
@@ -696,6 +705,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 1290556621913150682, guid: f4179767953b946be838857bee5c0fb6, type: 3}
   parent: {fileID: 1246990773}
+  scorePerHint: 12
 --- !u!1 &2022471101
 GameObject:
   m_ObjectHideFlags: 0
@@ -747,7 +757,7 @@ MonoBehaviour:
   m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -815,6 +825,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 1290556621913150682, guid: f4179767953b946be838857bee5c0fb6, type: 3}
   parent: {fileID: 1246990773}
+  scorePerHint: 12
 --- !u!1001 &2381023654969776145
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1028,22 +1039,22 @@ PrefabInstance:
     - target: {fileID: 3413584894008359720, guid: 46ab822870d321987be0aee1dddb0e17,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.15286596
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3413584894008359720, guid: 46ab822870d321987be0aee1dddb0e17,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.15465185
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3413584894008359720, guid: 46ab822870d321987be0aee1dddb0e17,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.02422356
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3413584894008359720, guid: 46ab822870d321987be0aee1dddb0e17,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9757705
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3413584894008359720, guid: 46ab822870d321987be0aee1dddb0e17,
         type: 3}
