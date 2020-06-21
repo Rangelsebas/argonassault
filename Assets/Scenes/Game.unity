@@ -121,6 +121,18 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &29338189 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3413584894089768905, guid: 46ab822870d321987be0aee1dddb0e17,
+    type: 3}
+  m_PrefabInstance: {fileID: 3413584894662153340}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &122503878 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8414310462876410331, guid: 46ab822870d321987be0aee1dddb0e17,
+    type: 3}
+  m_PrefabInstance: {fileID: 3413584894662153340}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &170900196 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8458895873550389517, guid: 602c8207f93678ca98319607106abe58,
@@ -1086,6 +1098,31 @@ PrefabInstance:
       propertyPath: circuit
       value: 
       objectReference: {fileID: 170900196}
+    - target: {fileID: 3413584894089768905, guid: 46ab822870d321987be0aee1dddb0e17,
+        type: 3}
+      propertyPath: m_Name
+      value: GunLeft
+      objectReference: {fileID: 0}
+    - target: {fileID: 3413584895145424112, guid: 46ab822870d321987be0aee1dddb0e17,
+        type: 3}
+      propertyPath: guns.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3413584895145424112, guid: 46ab822870d321987be0aee1dddb0e17,
+        type: 3}
+      propertyPath: guns.Array.data[0]
+      value: 
+      objectReference: {fileID: 29338189}
+    - target: {fileID: 3413584895145424112, guid: 46ab822870d321987be0aee1dddb0e17,
+        type: 3}
+      propertyPath: guns.Array.data[1]
+      value: 
+      objectReference: {fileID: 122503878}
+    - target: {fileID: 8414310462876410331, guid: 46ab822870d321987be0aee1dddb0e17,
+        type: 3}
+      propertyPath: m_Name
+      value: GunRight
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46ab822870d321987be0aee1dddb0e17, type: 3}
 --- !u!1001 &6021736005533186216
