@@ -4725,7 +4725,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b409429454d2c4dc7ac0c8b0e224c218, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathFX: {fileID: 1290556621913150682, guid: f4179767953b946be838857bee5c0fb6, type: 3}
+  deathFX: {fileID: 1290556621913150682, guid: a1b5ed3f49d764677a7c10523fcac6fd, type: 3}
   parent: {fileID: 1246990773}
   scorePerHint: 12
   hits: 100
@@ -10776,6 +10776,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 4.1313
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: f24986c5005449f4e96046f5edb103a7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c0e2b2c96376d3946abe974753956658, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f24986c5005449f4e96046f5edb103a7, type: 3}
 --- !u!4 &1505669253 stripped
@@ -14934,6 +14938,11 @@ PrefabInstance:
       propertyPath: guns.Array.data[1]
       value: 
       objectReference: {fileID: 122503878}
+    - target: {fileID: 3413584895145424112, guid: 46ab822870d321987be0aee1dddb0e17,
+        type: 3}
+      propertyPath: RestartMenuUI
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3413584895145424116, guid: 46ab822870d321987be0aee1dddb0e17,
         type: 3}
       propertyPath: m_TagString
