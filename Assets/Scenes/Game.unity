@@ -1716,8 +1716,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -710, y: -465}
-  m_SizeDelta: {x: 280.40857, y: 74.62158}
+  m_AnchoredPosition: {x: -272, y: -174}
+  m_SizeDelta: {x: 131.45325, y: 41.827484}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &143416467
 MonoBehaviour:
@@ -1752,7 +1752,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: c0258c2d491d14093b8c4146f7f456ac, type: 3}
-    m_FontSize: 59
+    m_FontSize: 27
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -10899,7 +10899,7 @@ RectTransform:
   m_GameObject: {fileID: 1156700138}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.314698, y: 2.314698, z: 2.314698}
+  m_LocalScale: {x: 1.2220911, y: 1.2220911, z: 1.2220911}
   m_Children:
   - {fileID: 1755673074}
   m_Father: {fileID: 2022471105}
@@ -10907,7 +10907,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 828, y: -412}
+  m_AnchoredPosition: {x: 320, y: -145.8}
   m_SizeDelta: {x: 120.23547, y: 110.11777}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1156700140
@@ -11459,7 +11459,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.2588501, y: 0}
-  m_SizeDelta: {x: 98.83945, y: 98.70434}
+  m_SizeDelta: {x: 40.601135, y: 38.933388}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1196537905
 MonoBehaviour:
@@ -17949,8 +17949,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -198, y: -40}
-  m_SizeDelta: {x: 271.95, y: 30.11773}
+  m_AnchoredPosition: {x: -161, y: -40}
+  m_SizeDelta: {x: 200.63513, y: 27.117767}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1755673075
 MonoBehaviour:
@@ -17973,7 +17973,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: c0258c2d491d14093b8c4146f7f456ac, type: 3}
-    m_FontSize: 25
+    m_FontSize: 17
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
